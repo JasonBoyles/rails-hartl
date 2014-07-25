@@ -30,7 +30,7 @@ end
 
 group :test do
   gem 'factory_girl_rails', '4.2.1'
-  gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner'
 
   gem 'cucumber-rails', '1.4.0', :require => false
   gem 'selenium-webdriver', '2.35.1'
